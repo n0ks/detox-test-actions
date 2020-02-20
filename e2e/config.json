@@ -1,0 +1,8 @@
+{
+	"testEnvironment": "node",
+	"reporters": ["detox/runners/jest/streamlineReporter"],
+	"verbose": true,
+	"preset": "ts-jest",
+	"setupFilesAfterEnv": ["./init.ts"],
+	"testPathIgnorePatterns": ["e2e/home/*"]
+}
