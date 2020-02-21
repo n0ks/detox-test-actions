@@ -48,5 +48,5 @@ jobs:
     - run: brew tap wix/brew
     - run: brew install applesimutils
     - run: yarn detox build e2e --configuration ios.sim.debug
-    - run: yarn start
+    - run: yarn start &
     - run: yarn detox test e2e --configuration ios.sim.debug --cleanup --debug-synchronization 200
